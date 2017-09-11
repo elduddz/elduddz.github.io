@@ -2,6 +2,8 @@
 
 **Create a folder per topic (with index.md expected)**
 
+**Also remember things are case sensitive!**
+
 ## Version Controls
 
 - [Git](Git/index.md)  
@@ -13,7 +15,7 @@
 ## Messaging Services
 
 - [MassTransit](MassTransit/index.md)  
-- [RabbitMQ](rabbitMQ/index.md)  
+- [RabbitMQ](RabbitMQ/index.md)  
 - [Akka.net](Akka.net/index.md)  
 
 ## Api Interfacing
@@ -27,6 +29,5 @@
 -  [App Settings](Azure/applicationSettings-replacements.md)
 
 ## PowerShell  
-- [PowerShell](Powershell/index.md)
+- [PowerShell](PowerShell/index.md)
 - [Compare-Object](PowerShell/Compare-Object.md)
-- [Things I should know but keep forgetting](psthings.md)
