@@ -1,4 +1,5 @@
 # scratch
+
 https://www.rabbitmq.com/
 
 **requires Erlang**
@@ -6,4 +7,5 @@ https://www.rabbitmq.com/
 Supported by Mass Transit
 
 ## contents
+
 - [my setup guide](setup.md)
