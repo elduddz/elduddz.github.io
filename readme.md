@@ -3,4 +3,4 @@
 [Today I learnt](til/)
 
 ## Blog is over here:
-[Saved Keystrokes](https://savekeystrokes.github.io)
+[Saved Keystrokes](https://savedkeystrokes.github.io)
