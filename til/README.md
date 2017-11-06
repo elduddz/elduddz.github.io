@@ -36,13 +36,8 @@
 
 - [SQL](Sql/)
 
-# Softly
-
-## Culture
-
-- [NetFlix's Culture](culture/netflixculture.md)
 
 ## Sayings
 
-- [Sayings](Sayings/index.md)
-- [Change Vs Chaos](Sayings/chaos.md)
+- [Sayings](til/Sayings/index.md)
+- [Change Vs Chaos](til/Sayings/chaos.md)
