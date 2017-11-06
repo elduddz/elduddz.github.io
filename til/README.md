@@ -1,4 +1,4 @@
-# Development Plans
+# Technologies I have looked at
 
 **Create a folder per topic (with index.md expected)**
 
@@ -35,6 +35,12 @@
 ## SQL
 
 - [SQL](Sql/)
+
+# Softly
+
+## Culture
+
+- [NetFlix's Culture](culture/netflixculture.md)
 
 ## Sayings
 
