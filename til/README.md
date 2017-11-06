@@ -31,3 +31,12 @@
 ## PowerShell  
 - [PowerShell](PowerShell/index.md)
 - [Compare-Object](PowerShell/Compare-Object.md)
+
+## SQL
+
+- [SQL](Sql/)
+
+## Sayings
+
+- [Sayings](Sayings/index.md)
+- [Change Vs Chaos](Sayings/chaos.md)
