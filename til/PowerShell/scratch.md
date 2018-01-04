@@ -12,3 +12,9 @@ Thinks have Aliases, you dont need to call `Where-Object` when `where` covers it
 # was getting confused why it was saying out was not a string! this make sense.
 Tee -OutVariable "thing"
 ```
+
+## Find edition of of VS2017 (15) installed
+
+$vs = Get-ItemProperty "HKLM:\SOFTWARE\WOW6432Node\Microsoft\VisualStudio\SxS\VS7" #| Select -ExpandProperty Property
+
+$vs.'15.0'
