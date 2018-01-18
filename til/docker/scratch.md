@@ -40,3 +40,8 @@ COPY ${configuration}
 ### passing parameters to docker build
 
 docker build --build-arg configuration="value" -t tag .
+docker rm [SHA]
+
+docker save -o file.tar [image]
+
+docker load -i file.tar
