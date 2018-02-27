@@ -107,6 +107,25 @@ DscConfiguration will return a boolean response by default
 
 DscConfiguration has a set pattern of functions.
 
+### another example
+```powershell
+Set-Location $PSScriptRoot
+
+$location = Get-Location
+
+$config = @{
+    AllNodes = @(
+        @{NodeName = "PC043012" }
+    )
+}
+
+# link to core configuration file
+. $location\Core.ps1 
+
+Core -ConfigurationData $config -OutputPath $location\Core -Verbose
+
+Start-DscConfiguration $location\Core
+```
 ```powershell
 function Get-TargetResource
 {
