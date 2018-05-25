@@ -45,3 +45,11 @@ docker rm [SHA]
 docker save -o file.tar [image]
 
 docker load -i file.tar
+
+## Transfer to local repo
+
+```
+docker pull [image][:tag]
+docker tag localreponame/[image][:tag]
+docker push localreponame/[image][:tag]
+```
