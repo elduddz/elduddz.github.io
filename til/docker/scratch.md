@@ -48,7 +48,10 @@ docker load -i file.tar
 
 ## Transfer to local repo
 
-```
+```powershell
+# if authentication required
+docker login localrepobaseurl
+
 docker pull [image][:tag]
 docker tag localreponame/[image][:tag]
 docker push localreponame/[image][:tag]
