@@ -31,3 +31,24 @@ You can also string several arguments together under 1 alias, so the following w
 [alias]
 refresh = !git fetch --prune && git reset --hard origin/$(git rev-parse --abbrev-ref HEAD) && git clean -dfx -e '.vs/'
 ```
+
+some of my favourites:
+>refresh = !git fetch --prune && git reset --hard origin/$(git rev-parse --abbrev-ref HEAD) && git clean -dfx -e '.vs/'  
+flat = !git log --first-parent $(git rev-parse --abbrev-ref HEAD) --graph  
+st = status  
+aa = add .  
+ci = commit  
+cim = commit -m  
+co = checkout  
+br = branch  
+unstage = reset HEAD --
+last = log -1 HEAD  
+pushit = !git push origin $(git rev-parse --abbrev-ref HEAD)  
+pom = !git push origin head:master  
+poh = "!f() { git push origin head:$1;}; f"  
+doh = "!f() { git push origin :$1;}; f"  
+uplink = !git branch --set-upstream-to origin/$(git rev-parse --abbrev-ref HEAD)  
+unlink = branch --unset-upstream
+pfd = push origin HEAD:refs/for/develop  
+pfm = push origin HEAD:refs/for/master  
+pfb = !git push origin HEAD:refs/for/$(git rev-parse --abbrev-ref HEAD)  
