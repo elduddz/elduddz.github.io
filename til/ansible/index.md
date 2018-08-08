@@ -4,7 +4,7 @@ with vagrant
 `cd /vagrant/ansible`
 
 ```ansible
-ansible-playbook -C -i inventories/infrastructure/hosts -u deployer --vault-password-file=~/.vaultpass base.yml --limit jenkins-master
+ansible-playbook -C -i inventories/infrastructure/hosts -u deployer --vault-password-file=~/.vaultpass base.yml --limit jenkins-master -C
 ```
 
 ## in session variable
@@ -18,4 +18,6 @@ export VAULT_PASS
 
 vi ~/.ssh/config
 
-ansible-playbook -i inventories/infrastructure/hosts -u deployer --vault-password-file=~/.vaultpass jenkins.yml --limit jenkins-master
+ansible-playbook -i inventories/infrastructure/hosts -u deployer --vault-password-file=~/.vaultpass jenkins.yml --limit jenkins-master -C
+
+remove -C when ready
