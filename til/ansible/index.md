@@ -14,7 +14,7 @@ _Type Secret_
 export VAULT_PASS
 
 -C = dry run
--i
+-i = identity
 
 vi ~/.ssh/config
 
