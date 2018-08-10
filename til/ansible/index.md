@@ -16,7 +16,7 @@ export VAULT_PASS
 -C = dry run
 -i = identity
 
-vi ~/.ssh/config
+check `vi ~/.ssh/config` make sure desired servers are allowed
 
 ansible-playbook -i inventories/infrastructure/hosts -u deployer --vault-password-file=~/.vaultpass jenkins.yml --limit jenkins-master -C
 
