@@ -1,1 +1,8 @@
+# IntFlags
 
+pv1 = 1
+pv2 = 2
+toBat = 4
+BatTo = 8
+gridTo = 16
+toGrid = 32
